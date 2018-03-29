@@ -1,5 +1,5 @@
 # PoE Trade Online Status
-A little program which refresh your online status on http://poe.trade platform without use your login &amp; password.<br>
+A little program which refreshes your online status on http://poe.trade platform without use your login &amp; password.<br>
 Only what you need is a URL which you use to login on http://currency.poe.trade/shop.
 
 Program is written in Java so you can use it on the Windows/Linux/Mac system.<br>

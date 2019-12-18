@@ -1,5 +1,5 @@
 // @author Dawid Tarasienko
-package poetradeonlinestatus;
+package pl.tarasienko.poetradeonlinestatus;
 
 import java.awt.Toolkit;
 import java.awt.event.WindowAdapter;
@@ -31,7 +31,7 @@ public class MainJFrame extends javax.swing.JFrame
 		{
 			jTextField_URL.setText(savedUrl);
 			jCheckBox_SaveURL.setSelected(true);
-			if(!jTextField_URL.getText().startsWith("http://control.poe.trade/"))
+			if(!jTextField_URL.getText().startsWith("https://control.poe.trade/"))
 			{
 				jButton_Connect.setEnabled(false);
 			}
@@ -77,7 +77,7 @@ public class MainJFrame extends javax.swing.JFrame
 
 			public void checkURL()
 			{
-				if(jTextField_URL.getText().startsWith("http://control.poe.trade/"))
+				if(jTextField_URL.getText().startsWith("https://control.poe.trade/"))
 				{
 					jButton_Connect.setEnabled(true);
 				}
@@ -108,7 +108,7 @@ public class MainJFrame extends javax.swing.JFrame
 
         jPanel_Main.setBackground(new java.awt.Color(255, 255, 255));
 
-        jTextField_URL.setToolTipText("Correct URL: http://control.poe.trade/...");
+        jTextField_URL.setToolTipText("Correct URL: https://control.poe.trade/...");
         jTextField_URL.addActionListener(new java.awt.event.ActionListener()
         {
             public void actionPerformed(java.awt.event.ActionEvent evt)

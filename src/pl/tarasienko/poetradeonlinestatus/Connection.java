@@ -1,5 +1,5 @@
 // @author Dawid Tarasienko
-package poetradeonlinestatus;
+package pl.tarasienko.poetradeonlinestatus;
 
 import java.awt.Color;
 import org.jsoup.Jsoup;
@@ -29,7 +29,7 @@ public class Connection
 	{
 		try
 		{
-			Document doc = Jsoup.connect(url).userAgent("Mozilla").post();
+			Document doc = Jsoup.connect(url).validateTLSCertificates(false).userAgent("Mozilla").post();
 			
 			int index = doc.text().indexOf("You are online for the next");
 			if(index != -1)
@@ -50,7 +50,7 @@ public class Connection
 	{
 		try
 		{
-			Jsoup.connect(url + "/offline").userAgent("Mozilla").post();
+			Jsoup.connect(url + "/offline").validateTLSCertificates(false).userAgent("Mozilla").post();
 		}
 		catch(Exception e)
 		{ }

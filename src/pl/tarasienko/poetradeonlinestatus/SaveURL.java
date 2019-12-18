@@ -1,5 +1,5 @@
 // @author Dawid Tarasienko
-package poetradeonlinestatus;
+package pl.tarasienko.poetradeonlinestatus;
 
 import java.io.BufferedWriter;
 import java.io.File;

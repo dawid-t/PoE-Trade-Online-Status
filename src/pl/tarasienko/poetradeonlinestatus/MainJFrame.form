@@ -103,7 +103,7 @@
       <SubComponents>
         <Component class="javax.swing.JTextField" name="jTextField_URL">
           <Properties>
-            <Property name="toolTipText" type="java.lang.String" value="Correct URL: http://control.poe.trade/..."/>
+            <Property name="toolTipText" type="java.lang.String" value="Correct URL: https://control.poe.trade/..."/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField_URLActionPerformed"/>

@@ -7,5 +7,5 @@ Program is written in Java so you can use it on the Windows/Linux/Mac system.<br
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/13331872/71078285-58118200-2189-11ea-9075-360e90abec5d.png">
+  <img src="https://user-images.githubusercontent.com/13331872/71080147-e0dded00-218c-11ea-84a4-cd665c97b787.png">
 </p>
